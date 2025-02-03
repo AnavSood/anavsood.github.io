@@ -12,7 +12,8 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "custom"
 
 # Site Settings
 locale                   : "en-US"
@@ -144,6 +145,9 @@ author:
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=Dtv1B-4AAAAJ&hl=en"
 
+atom_feed:
+  hide: true
+
 # Site Footer
 footer:
   links:
@@ -207,6 +211,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"

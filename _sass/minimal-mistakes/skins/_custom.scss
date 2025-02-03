@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Custom skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #fff !default;
+$text-color: #222831 !default;
+$muted-text-color: #393e46 !default;
+$primary-color: #0092ca !default;
+$border-color: mix(#fff, #393e46, 75%) !default;
+$footer-background-color: $primary-color !default;
+$link-color: #393e46 !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+.page__footer {
+  color: #fff !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+/* Github syntax highlighting (base16) */
+$base00: #efefef !default; /* This is the background color */
+$base01: #f5f5f5 !default;
+$base02: #c8c8fa !default;
+$base03: #969896 !default;
+$base04: #77aa77 !default; /* This is the comment color */
+$base05: #333333 !default;
+$base06: #eeeeee !default;
+$base07: #eeeeee !default;
+$base08: #ed7a43 !default;
+$base09: #0086b3 !default;
+$base0a: #795da3 !default;
+$base0b: #183691 !default;
+$base0c: #183691 !default;
+$base0d: #795da3 !default;
+$base0e: #a71d5d !default;
+$base0f: #333333 !default;
