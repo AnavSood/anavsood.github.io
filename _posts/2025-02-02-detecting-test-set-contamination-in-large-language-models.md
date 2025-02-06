@@ -117,7 +117,7 @@ In my opinion, the careful statistical thinking we've applied in this post helps
 
 ## Acknowledgements
 
-I'd like to thank my friend Yash Nair, to whom I go to for all my permutation testing questions, for discussing this post with me as I wrote it. I'd also like to thank Tim Morrison for reading and offering comments on an earlier draft. 
+I'd like to thank Yash Nair, to whom I go to for all my permutation testing questions, for discussing this post with me as I wrote it. I'd also like to thank Tim Morrison for reading and offering comments on an earlier draft. 
 
 ## References
 
