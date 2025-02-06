@@ -78,7 +78,7 @@ If the examples $$x_i$$ in our dataset $$\mathcal{X}$$ really have nothing to do
 
 The good news is, this line of thinking allows us to identify where randomness may be appropriate and useful modeling choice. Why does it feel unlikely that the dataset happens to be in the one ordering that the LLM, when it hasn't been trained on $$\mathcal{X}$$, assigns the highest probability to? Perhaps because it is natural to imagine that the dataset was equally likely to be assembled in any ordering, and therefore that the probability of it being assembled in this particular "optimal" ordering is incredibly small. Indeed, if we model the *ordering* of the dataset $$\mathcal{X}$$ as random, then the above hypothetical scenario truly becomes unlikely, and we can establish a  desirable statistical guarantee for Oren et al.'s procedure.
 
-## A rigorous and formal treatment
+## A rigorous treatment
 
 Let's present a new formalization of the problem. We'll consider a fixed training corpus $$\mathcal{C}$$ and a fixed dataset $$\mathcal{X} = \{x_1, \dots, x_n\}$$ that consists of an unordered set of fixed examples. We'll also consider a uniformly random permutation $$\pi$$ (equally likely to be any permutation) and assume that the dataset $$\mathcal{X}$$ is published in some random ordering:
 
