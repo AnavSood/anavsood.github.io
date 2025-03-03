@@ -10,7 +10,7 @@ publish: false
 
 ## Overview
 
-In this post, I'll offer some commentary on Oren et al's method[^1] for detecting test set contamination in black box language models (LLMs). Oren et al. propose a method (that has received quite a bit of academic attention since its inception) for detecting whether or not an LLM was trained on a particular benchmark dataset. Specifically, they consider datasets that are composed of an ordered list of examples, like the BoolQ dataset[^2]:
+In this post, I'll offer some commentary on Oren et al.'s method[^1] for detecting test set contamination in black box language models (LLMs). Oren et al. propose a method (that has received quite a bit of academic attention since its inception) for detecting whether or not an LLM was trained on a particular benchmark dataset. Specifically, they consider datasets that are composed of an ordered list of examples, like the BoolQ dataset[^2]:
 
 1. **Question**: Does France have a Prime Minister and a President?  
    **Passage**: ... The extent to which those decisions lie with the Prime Minister or President depends upon ...  

@@ -14,12 +14,33 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
+
 .page__footer {
-  color: #fff !important; // override
+  color: #fff !important; /* Set text color to white */
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
+}
+
+.masthead__inner-wrap {
+  min-height: 0 !important; /* Force no minimum height */
+  padding: 12px !important; /* Remove any padding */
+}
+
+
+.page__footer footer {
+  margin-top: 0.5em !important; /* Reduce margin-top to reduce the space between content and footer */
+  padding: 0 1em 1em !important; /* Reduce bottom padding */
+}
+
+.page__footer-follow li {
+  padding-top: 3px !important; /* Reduce vertical padding */
+  padding-bottom: 3px !important; /* Reduce vertical padding */
+}
+
+.page__footer-copyright {
+  padding-top: 10px; /* or margin-top: 20px; */
 }
 
 /* Github syntax highlighting (base16) */
